@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+if (Math.random() < 0.3) {
+    text = "<a href='https://w3schools.com'>Visit W3Schools</a>";
+} else if (Math.random() > 0.3 && Math.random() < 0.6){
+    text = "<a href='https://wwf.org'>Visit WWF</a>";
+} else {
+	text = "<a href='https://xdd.org'>Visit Xdd</a>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
