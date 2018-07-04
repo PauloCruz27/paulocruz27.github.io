@@ -1,0 +1,24 @@
+<body style="background-color:#EEE8F6;">
+<head><title>Questionário</title>
+<div class="container">
+<p style="margin-top: 200px; margin-left: 200px; margin-right: 200px: justify;"><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: 18pt;">Obrigado pela sua disponibilidade</span></strong></span></p>
+</div>
+<div class="container">
+<p style="margin-left: 200px; margin-right: 200px; text-align: justify; line-height: 2.2"><span style="font-family: arial,helvetica,sans-serif;">As respostas obtidas no presente questionário serão utilizadas exclusivamente para fins científicos e a sua confidencialidade é garantida. Por favor, siga com atenção as instruções dadas e relembre que não existem respostas certas nem erradas.</span></p>
+<p style="margin-left: 200px; margin-right: 200px; text-align: justify; line-height: 2.2"><span style="font-family: arial,helvetica,sans-serif;">Este questionário leva cerca de 10 a 15 minutos a preencher.</span></p>
+</div>
+
+<script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.floor(Math.random()*3);
+    var links=new Array();
+    links[0]="https://goo.gl/forms/DGP0QU78zFDaJf9Z2";
+    links[1]="https://goo.gl/forms/e312nFUhxmgTFPOQ2";
+    links[2]="https://goo.gl/forms/vo3FLz1eISliAVxX2";
+ 
+    window.location=links[myrandom]
+}
+</script>
+<form>
+<input type="button"; style="margin-left: 200px; margin-right: 200px; font-size: 18pt"; value="Começar o questionário"; onClick="randomlinks()">
+</form>
